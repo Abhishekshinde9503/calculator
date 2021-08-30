@@ -1,0 +1,23 @@
+button
+{ 
+   background-color:orange;
+   border-radius:20px;
+   color:white;
+   padding: 5Px 10px;
+   text-align: center;
+   font-size: 30px;   
+}
+.center
+{
+	margin:auto;
+	width:23.5%;
+	border:10px solid black;
+	padding : 10px;
+	border-radius: 30px;
+}
+body
+{
+	 background-image:url(cal.jpg); 
+	 background-repeat:no-repeat;
+	 background-size:cover;
+}

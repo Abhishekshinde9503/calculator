@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="cal.css">
+  <title>Calculator</title>
+  <script>
+  function add()
+  {
+   var n1,n2,ans;
+   n1=document.getElementById("num1").value
+   n2=document.getElementById("num2").value
+   ans=Number(n1)+Number(n2);
+   document.getElementById("answer").innerHTML=ans;
+  }
+  function sub()
+  {
+   var n1,n2,ans;
+   n1=document.getElementById("num1").value
+   n2=document.getElementById("num2").value
+   ans=Number(n1)-Number(n2);
+   document.getElementById("answer").innerHTML=ans;
+  }
+  function mult()
+  {
+   var n1,n2,ans;
+   n1=document.getElementById("num1").value
+   n2=document.getElementById("num2").value
+   ans=Number(n1)*Number(n2);
+   document.getElementById("answer").innerHTML=ans;
+  }
+  function div()
+  {
+   var n1,n2,ans;
+   n1=document.getElementById("num1").value
+   n2=document.getElementById("num2").value
+   ans=Number(n1)/Number(n2);
+   document.getElementById("answer").innerHTML=ans;
+  }
+  </script>
+ </head>
+  <body align="center">
+  <div class="center">
+  <h2>Enter First No:
+  <input type="number" id="num1"></h2>
+  <h2>Enter second No:
+  <input type="number" id="num2"></h2>
+  <button input type="button" onclick="add()">+</button>&nbsp &nbsp
+  <button input type="button" onclick="sub()">-</button>&nbsp &nbsp
+  <button input type="button" onclick="mult()">*</button>&nbsp &nbsp
+  <button input type="button" onclick="div()">/</button>&nbsp &nbsp
+  <h2>Answer is:<span id="answer"></span><br><br>
+  </div>
+  </body>
+<html>
